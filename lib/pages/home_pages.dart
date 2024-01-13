@@ -102,7 +102,7 @@ class _HomePageState extends State<HomePage> {
                                    }, icon: Icon(Icons.edit)),
                                    IconButton(onPressed: ()async{
                                      await   databaseService.delEm(ds["id"]);
-                                   }, icon: Icon(Icons.delete))
+                                   }, icon: Icon(Icons.delete,color: Colors.red,))
                                  ],
                                )
                               ],
